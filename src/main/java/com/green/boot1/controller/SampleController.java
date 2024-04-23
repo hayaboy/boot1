@@ -25,4 +25,13 @@ public class SampleController {
         model.addAttribute("animals", animals);
     }
 
+    @GetMapping("/ex/ex3")
+    public void ex3(Model model) {
+
+        model.addAttribute("arrs", new String[]{"AAA","BBB","CCC"});
+
+    }
+
+
+
 }

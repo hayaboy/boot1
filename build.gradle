@@ -29,6 +29,9 @@ dependencies {
 
     //타임리프
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    //타임리프 레이아웃
+    implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.1.0'
+
 
     //마리아DB 드라이버
     runtimeOnly 'org.mariadb.jdbc:mariadb-java-client'
